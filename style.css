@@ -132,13 +132,9 @@ span{
     text-decoration: none
 }
 
-/* .anel-ops a:hover{
-    border: 2px black solid;
-} */
 .panel-deals{
     font-size: 1.15vw;
     font-weight: 700;
-    /* overflow: hidden; */
 }
 
 /* hero-section */
@@ -288,7 +284,11 @@ ul a{
         width: 70%;
     }
     .panel-ops, .panel-deals, .panel-all {
-        font-size: 9px;
+        font-size: 10px;
+    }
+    .panel-ops{
+        justify-content: space-between;
+        /* margin-right: 8px; */
     }
     .panel-ops a{
         margin-left: 0%;
@@ -298,10 +298,10 @@ ul a{
         height: 30px;
     }
     .add-first{
-        font-size: 0.5rem;
+        font-size: 10px;
     }
     .add-second, .nav-second, .nav-cart, .search-select, .search-input{
-        font-size: 0.6rem;
+        font-size: 11px;
     }
     .logo{
         background-image: url("amazon_logo.png");
@@ -310,5 +310,15 @@ ul a{
         height: 50px;
         width: 100%;
     }
-    
+    .navbar{
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .nav-search{
+        width: 45%;
+    }
+    .panel{
+        flex-wrap: wrap;
+        height: 70px;
+    }
 }
